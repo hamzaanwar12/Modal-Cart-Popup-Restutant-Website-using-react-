@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+button.ModalButton{
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+    width: 3.5rem;
+    border-radius: 6px;
+}
+
+div.itemModal{
+    width: 100%;    
+    height: 6rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(231, 53, 88);
+}
+div.itemName{
+    width: 25%;
+}
+div.itemName div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.itemName div h3
+{
+    font-size: 15px;
+}
+
+h3.priceModal{
+    font-weight: 700;
+    font-size: 12px;  
+    color: crimson;
+}
+
+h3.quantity{
+    border-radius: 5px;
+    text-align: center;
+    width: 37px;
+    font-weight: 500;
+    border: 1px solid lightslategray;
+}
+div.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button.ModalButton:active{
+    background-color: crimson;
+    color: white;
+    border: none;
+    outline: none;
+}
+div.buttons button{
+    margin-left: 5px;
+    font-size: 21px;
+}

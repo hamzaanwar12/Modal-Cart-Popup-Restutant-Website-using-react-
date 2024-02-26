@@ -1,0 +1,13 @@
+div.allItems{
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    width:75%;
+    margin: auto;
+    position: relative;
+    bottom: 11rem;
+    padding: 19px;
+    border-radius: 1.5rem;
+    /* margin-bottom: 9rem; */
+    overflow: hidden;
+}

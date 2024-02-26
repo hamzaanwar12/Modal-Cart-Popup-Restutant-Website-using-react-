@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+div.item,div.amount,div.quantity{
+    display: flex;
+    align-items: center;
+}
+div.item{
+    width: 95%;
+    margin: auto;
+    border-bottom: 0.5px solid #8ea1b352;
+    justify-content: space-between;
+    height: 7.5rem;
+    padding: 7px;
+}
+
+div.itemName h4,div.itemName h3,div.itemName h3.price{
+    position: relative;
+}
+
+h3.name{
+    top: 21px;
+}
+
+div.itemName h4{
+    top: 2px;
+}
+
+h3.price{
+    bottom: 8px;
+}
+
+div.quantity h3{
+    margin-right: 12px;
+}
+
+div.amount,div.itemName{
+    flex-direction: column;
+}
+
+h4{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h3,button{
+    font-weight: 780;
+}
+
+input{
+   max-width: 60px;
+    height: 22px;
+    border: 1.7px solid lightgrey;
+    outline: none;
+    border-radius: 9px;
+    text-align: center;
+}
+
+button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 17px;
+    height: 2rem;
+    width: 5.5rem;
+    font-size: larger;
+    cursor: pointer;
+}
